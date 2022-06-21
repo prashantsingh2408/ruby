@@ -5,7 +5,7 @@ Common Use cases
 * Install new version
 > * rvm install 2.1.1
 
-* # Disable RVM from trying to install necessary software via apt-get(in case of bug in while RVM install via apt-get) 
+* Disable RVM from trying to install necessary software via apt-get(in case of bug in while RVM install via apt-get) 
 > * rvm autolibs disable
 
 * Reinstall version
