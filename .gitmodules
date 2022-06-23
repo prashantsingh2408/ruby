@@ -1,3 +1,6 @@
 [submodule "ruby-style-guide"]
 	path = ruby-style-guide
 	url = https://github.com/prashantsingh2408/ruby-style-guide
+[submodule "ROR"]
+	path = ROR
+	url = https://github.com/prashantsingh2408/ROR
