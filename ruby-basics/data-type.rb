@@ -19,11 +19,11 @@ end
 #hashes are used to store data in a key value pair
 puts 'hash'
 hsh = {name => age, distance => distance}
-#hsh = {name: age, distance: distance}  #this is the same as above
+  #hsh = {name: age, distance: distance}  #this is the same as above
 hsh.each do |key, value|
   puts "#{key} is #{value}"
 end
-#hashes with .each_key and .each_value
+  #hashes with .each_key and .each_value
 hsh.each_key do |key|
   puts "#{key}"
 end
@@ -31,7 +31,7 @@ hsh.each_value do |value|
   puts "#{value}"
 end
 
-#delete
+  #delete
 hsh.delete(name)
 
 hsh.each { {|key, value| puts "#{key} is #{value}"} }
@@ -41,13 +41,14 @@ hsh.select { |key, value| v.odd? }
 
 
 
-
 #array
 puts 'array'
 arr = [1,'prashant',3.14,true]
 arr.each do |value|
   puts value
 end
+  
+  
 
 #Symbols are used to store data in a key value pair
 #Symbols are immutable

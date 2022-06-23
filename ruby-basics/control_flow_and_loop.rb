@@ -20,6 +20,15 @@ while x < 10
   x += 1
 end
 
+# loop do
+x = 4
+loop do
+  puts x
+  x += 1
+  break if x == 10
+end
+
+
 # for
 for x in 1..10
   puts x
