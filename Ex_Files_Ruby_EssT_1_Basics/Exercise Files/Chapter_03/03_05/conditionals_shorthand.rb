@@ -9,13 +9,10 @@ max = limit || DEFAULT_LIMIT
 
 puts max
 
-
 limit ||= DEFAULT_LIMIT
 
 puts limit
 
+limit ||= DEFAULT_LIMIT
 
-limit = DEFAULT_LIMIT unless limit
-
-puts "Are you lonely?" if count == 1
-
+puts 'Are you lonely?' if count == 1

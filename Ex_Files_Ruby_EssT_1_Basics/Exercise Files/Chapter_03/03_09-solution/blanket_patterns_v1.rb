@@ -3,7 +3,7 @@
 # Changes the start of the new string without modifying the original string
 # Integer#modulo divides a number by another and returns the remainder
 
-colors = "RRGGBBYYKK"
+colors = 'RRGGBBYYKK'
 lines = 20
 
 count = 0

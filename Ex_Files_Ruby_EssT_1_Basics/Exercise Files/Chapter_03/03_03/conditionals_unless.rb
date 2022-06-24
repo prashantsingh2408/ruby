@@ -1,7 +1,7 @@
-cart = ['apple', 'banana', 'carrot']
+cart = %w[apple banana carrot]
 
-unless cart.empty?
-  puts "The first item is: #{cart[0]}"
+if cart.empty?
+  puts 'The cart is empty.'
 else
-  puts "The cart is empty."
+  puts "The first item is: #{cart[0]}"
 end

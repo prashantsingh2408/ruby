@@ -15,4 +15,3 @@ end
 set_value
 
 puts value
-

@@ -21,13 +21,14 @@ class Board
 
   def check_win
     @board.each do |row|
-      return true if row.uniq.length == 1 && row[0] != nil
+      return true if row.uniq.length == 1 && !row[0].nil?
     end
     @board.transpose.each do |col|
-      return true if col.uniq.length == 1 && col[0] != nil
+      return true if col.uniq.length == 1 && !col[0].nil?
     end
-    return true if @board[0][0] == @board[1][1] && @board[1][1] == @board[2][2] && @board[0][0] != nil
-    return true if @board[0][2] == @board[1][1] && @board[1][1] == @board[2][0] && @board[0][2] != nil
+    return true if @board[0][0] == @board[1][1] && @board[1][1] == @board[2][2] && !@board[0][0].nil?
+    return true if @board[0][2] == @board[1][1] && @board[1][1] == @board[2][0] && !@board[0][2].nil?
+
     false
   end
 
@@ -38,4 +39,3 @@ class Board
     true
   end
 end
-

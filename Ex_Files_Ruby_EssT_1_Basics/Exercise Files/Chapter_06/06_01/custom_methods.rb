@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 def welcome
-  puts "Hello world!"
+  puts 'Hello world!'
 end
 
 welcome
@@ -11,7 +11,7 @@ welcome
 
 # can be redefined again without error
 def welcome
-  puts "Hello everyone!"
+  puts 'Hello everyone!'
 end
 
 welcome

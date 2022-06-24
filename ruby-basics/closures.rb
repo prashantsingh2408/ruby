@@ -1,3 +1,2 @@
-my_proc = Proc.new { |name| puts "Hello #{name}" }
-my_proc.call("John")
-
+my_proc = proc { |name| puts "Hello #{name}" }
+my_proc.call('John')

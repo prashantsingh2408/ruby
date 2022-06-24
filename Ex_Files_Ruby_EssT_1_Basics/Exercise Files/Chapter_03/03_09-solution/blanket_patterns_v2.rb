@@ -2,10 +2,10 @@
 # Uses an iterator
 # Modifies the string by moving first character to the end
 
-colors = "RRGGBBYYKK"
+colors = 'RRGGBBYYKK'
 lines = 20
 
-lines.times do |i|
+lines.times do |_i|
   first = colors[0]
   rest = colors[1..-1]
   colors = rest + first

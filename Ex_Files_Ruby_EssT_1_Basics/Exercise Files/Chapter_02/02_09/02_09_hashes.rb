@@ -1,12 +1,12 @@
 # This file is a transcript of the IRB session shown in the movie.
-# You should be able to cut and paste it into IRB to get 
+# You should be able to cut and paste it into IRB to get
 # the same results shown in the comments.
 
 # irb
 car = {
-  'brand' => 'Ford', 
-  'model' => 'Mustang', 
-  'color' => 'blue', 
+  'brand' => 'Ford',
+  'model' => 'Mustang',
+  'color' => 'blue',
   'interior_color' => 'tan'
 }
 puts car['model']
@@ -17,7 +17,7 @@ puts car['brand']
 # => nil
 car['color'] = 'green'
 # => "green"
-car['color'] 
+car['color']
 # => "green"
 car['doors'] = 2
 # => 2

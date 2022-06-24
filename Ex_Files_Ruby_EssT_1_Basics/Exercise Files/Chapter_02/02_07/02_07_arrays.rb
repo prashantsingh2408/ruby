@@ -1,5 +1,5 @@
 # This file is a transcript of the IRB session shown in the movie.
-# You should be able to cut and paste it into IRB to get 
+# You should be able to cut and paste it into IRB to get
 # the same results shown in the comments.
 
 # irb
@@ -22,6 +22,6 @@ my_array
 # ["a", nil, "c", 100, nil, "d"]
 my_array << 'e'
 # ["a", nil, "c", 100, nil, "d", "e"]
-my_array << ['f', 'g']
+my_array << %w[f g]
 # ["a", nil, "c", 100, nil, "d", "e", ["f", "g"]]
 quit

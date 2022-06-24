@@ -1,9 +1,9 @@
 # This file is a transcript of the IRB session shown in the movie.
-# You should be able to cut and paste it into IRB to get 
+# You should be able to cut and paste it into IRB to get
 # the same results shown in the comments.
 
 # irb
-array = [2, 4, ['a', 'b'], nil, 4, 'c']
+array = [2, 4, %w[a b], nil, 4, 'c']
 # => [2, 4, ["a", "b"], nil, 4, "c"]
 array.length
 # => 6
@@ -47,15 +47,15 @@ array.delete('c')
 # => "c"
 array
 # => ["a", "b", 2]
-[1,2,3,4].join(',')
+[1, 2, 3, 4].join(',')
 # => "1,2,3,4"
-[1,2,3,4].join
+[1, 2, 3, 4].join
 # => "1234"
-[1,2,3,4].join(' - ')
+[1, 2, 3, 4].join(' - ')
 # => "1 - 2 - 3 - 4"
-"1,2,3,4".split(',')
+'1,2,3,4'.split(',')
 # => ["1", "2", "3", "4"]
-numbers = [1,2,3,4]
+numbers = [1, 2, 3, 4]
 # => [1, 2, 3, 4]
 numbers.push(5)
 # => [1, 2, 3, 4, 5]

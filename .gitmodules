@@ -4,3 +4,6 @@
 [submodule "ROR"]
 	path = ROR
 	url = https://github.com/prashantsingh2408/ROR
+[submodule "udemy/alpha-blog"]
+	path = udemy/alpha-blog
+	url = https://github.com/prashantsingh2408/alpha-blog-11-2017-5.1.4

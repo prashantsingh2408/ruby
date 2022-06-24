@@ -1,12 +1,12 @@
 #!/usr/bin/env ruby
 
-puts "-" * 15
-puts "| Ruby Blanks |"
-puts "-" * 15
+puts '-' * 15
+puts '| Ruby Blanks |'
+puts '-' * 15
 
-blanks = ['verb', 'adjective', 'adjective', 'noun']
+blanks = %w[verb adjective adjective noun]
 
-vowels = ['a', 'e', 'i', 'o', 'u']
+vowels = %w[a e i o u]
 
 answers = blanks.map do |request|
   article = vowels.include?(request[0]) ? 'an' : 'a'
