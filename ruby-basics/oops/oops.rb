@@ -1,35 +1,26 @@
-class Student
-  attr_accessor :last_name, :email, :username
-  attr_reader :username
-  @first_name
-  @last_name
-  @email
-  @username
-  @password
- 
-
-  def initialize(first_name, last_name, email, username, password)
-    @first_name = first_name
-    @last_name = last_name
-    @email = email
-    @username = username
-    @password = password
+class Box
+  # constructor
+  def initialize(@width, @height,@count)
+    @width = width
+    @height = height
+    @count += 1 # class variable,share between all instances
   end
 
+  # accessor methods
+  def 
+    @first_name
+  end
+
+  # setter methods
   def first_name = (name)
     @first_name = name
   end
 
-  def first_name
-    @first_name
+  def to_s
+    puts "String representation of box is : #{box}"
   end
 
-  def to_s
-    "First name: #{@first_name}\nLast name: #{@last_name}\nEmail: #{@email}\nUsername: #{@username}\nPassword: #{@password}"
-  end
+
 end
 
-mashrur = Student.new("prashant", "singh","prashantsingh24008@gmail.com", "prashant", "password")
-puts mashrur
-puts mashrur.first_name
-
+# create` as i
